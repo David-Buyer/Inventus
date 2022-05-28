@@ -24,7 +24,7 @@ class InventusSpider(CrawlSpider):
         super(InventusSpider, self).__init__(*args, **kwargs)
 
         if domain is None:
-            print "Error: You must provide a domain."
+            print("Error: You must provide a domain.")
             return
 
         self.domain = domain

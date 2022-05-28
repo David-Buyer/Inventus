@@ -9,6 +9,6 @@ import sys
 
 class InventusSpiderPipeline(object):
     def process_item(self, item, spider):
-        print item['subdomain']
+        print(item['subdomain'])
         sys.stdout.flush()
         return item
